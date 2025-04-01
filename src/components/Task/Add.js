@@ -49,7 +49,7 @@ function Add(props) {
             })
             .catch((error) => {
                 console.log("Error: ", error.response.data);
-                setErr("Error creating task!!");
+                setErr("Error creating task");
             });
     };
 
